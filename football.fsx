@@ -2,9 +2,9 @@
 open FSharp.Data
 open XPlot.GoogleCharts
 
-type Football = JsonProvider<"https://raw.githubusercontent.com/opendatajson/football.json/master/2016-17/en.1.json">
+type Football = JsonProvider<"example.json">
 
-let uk = Football.Load("https://raw.githubusercontent.com/opendatajson/football.json/master/2016-17/en.1.json")
+let uk = Football.Load("data.json")
 
 let allMatches = uk.Rounds |> Seq.collect (fun i -> i.Matches)
 

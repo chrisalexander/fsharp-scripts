@@ -58,6 +58,8 @@ Original series of blog posts:
 - Creating data pairs
 -- Flip
 -- OrZero and option types
+--- Alternative implementation to OrZero using match
+---- Invoke with OrZero (Some 5) and OrZero None - note brackets required
 -- CreateDataPair
 - Map across all matches
 
